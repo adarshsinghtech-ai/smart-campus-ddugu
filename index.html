@@ -94,7 +94,7 @@ const SF={date:today(),b:'any',br:'',yr:'',sec:''};
 
 function seed(){
   const d0=today(),d1=addDays(1);let n=0;
-  const b=(room,date,s,e,title,purpose,aud)=>({id:'T'+(++n),room,date,s:P(s),e:P(e),title,purpose,by:'Test Faculty (TEST DATA)',aud,status:'active',test:true});
+  const b=(room,date,s,e,title,purpose,aud)=>({id:'T'+(++n),room,date,s:P(s),e:P(e),title,purpose,by:'Mr. Aryan Mishra (TEST DATA)',aud,status:'active',test:true});
   return{role:'Faculty',user:'Mr. Aryan Mishra',caps:{},students:[],log:[],reports:[],
     ann:[{id:1,ts:Date.now(),type:'General',title:'Welcome (TEST DATA)',msg:'Sample notice that shows how announcements appear.',by:'Admin',test:true}],
     bookings:[
